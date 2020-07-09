@@ -13,4 +13,4 @@ RUN apk update && \
 
 RUN pip install ansible q
 
-CMD ['/sbin/init']
+CMD ["/sbin/init"]
