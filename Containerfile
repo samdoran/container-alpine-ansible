@@ -9,6 +9,7 @@ RUN apk update && \
         openssl-dev \
         python3-dev \
         py3-pip \
+        sudo \
         yaml-dev
 
 RUN pip install ansible q
