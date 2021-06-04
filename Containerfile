@@ -12,6 +12,6 @@ RUN apk update && \
         sudo \
         yaml-dev
 
-RUN pip install ansible q
+RUN pip install ansible-core q
 
 CMD ["/sbin/init"]
